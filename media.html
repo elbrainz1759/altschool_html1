@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Schools and Courses</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">About Me</a> | 
+            <a href="table.html">Table</a> | 
+            <a href="media.html">Media</a>
+        </nav>
+    </header>
+    <h1>My Media Showcase</h1>
+
+    <h2>Responsive Picture</h2>
+    <picture>
+        <source srcset="media/passport.jpg" media="(max-width: 600px)">
+        <source srcset="media/passport.jpg" media="(max-width: 1024px)">
+        <source srcset="media/passport.jpg" media="(min-width: 1025px)">
+        <img src="media/passport.jpg" alt="A picture of me">
+    </picture>
+
+    <h2>Audio Message</h2>
+    <audio controls>
+        <source src="media/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Video Introduction</h2>
+    <video controls width="400">
+        <source src="media/video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <h2>Embedded Map</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75783.25830767801!2d7.08550419336296!3d8.96680605312774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7b7e78077751%3A0x8853b302787bb4f3!2sUniversity%20Of%20Abuja%2C%20Main%20Campus!5e1!3m2!1sen!2sng!4v1738708847801!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+    <h2>PDF File</h2>
+    <iframe src="media/pdf.pdf" width="600" height="500"></iframe>
+
+    <h2>Back to Home</h2>
+    <p><a href="index.html">Go to About Me Page</a></p>
+    <footer>
+        <nav>
+            <a href="index.html">About Me</a> | 
+            <a href="table.html">Table</a> | 
+            <a href="media.html">Media</a>
+        </nav>
+        <p>&copy; 2025 AltSchool Africa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
